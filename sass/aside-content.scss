@@ -1,0 +1,96 @@
+.content {
+  .aside-content {
+    position: relative;
+    cursor: default;
+    flex: 1;
+    @extend %flex-col;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 2rem;
+    background-color: $color-black;
+
+    &__buttons {
+      @extend %flex-row;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      i {
+        cursor: default;
+        color: $color-gray;
+        opacity: 0.5;
+      }
+
+      .f-t {
+        opacity: 0.2;
+        font-size: 2rem;
+      }
+
+      .f-s {
+        font-size: 3rem;
+      }
+
+      .f-f {
+        font-size: 4rem;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &__rage {
+      flex: 1;
+      width: 100%;
+      &--bar {
+        @extend %flex-row;
+        justify-content: center;
+        align-items: center;
+        .skill-meter {
+          width: 40%;
+          height: 0.5rem;
+          border-radius: 2rem;
+          background-color: $color-l-gray;
+          .skill-level {
+            height: 100%;
+            border-radius: inherit;
+            background-color: $color-gray;
+          }
+        }
+      }
+    }
+    &__options {
+      @extend %flex-row;
+      align-items: center;
+      justify-content: center;
+      right: 2rem;
+      position: absolute;
+      color: white;
+      gap: 1rem;
+
+      input[type="range"] {
+        // appearance: none;
+        accent-color: red;
+        width: 100%;
+        height: 0.4rem;
+        border-radius: 50px;
+        outline: none;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      i {
+        cursor: pointer;
+        font-size: 2rem;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

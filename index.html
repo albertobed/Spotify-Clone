@@ -23,6 +23,41 @@
     />
   </head>
   <body>
+    <div class="content">
+      <main class="main-content"></main>
+      <aside class="aside-content">
+        <div class="aside-content__buttons">
+          <i class="f-t fa-solid fa-shuffle"></i>
+          <i class="f-s fa-solid fa-backward-step"></i>
+          <i class="f-f fa-solid fa-circle-pause"></i>
+          <!-- <i class="fa-solid fa-circle-play"></i> -->
+          <i class="f-s fa-solid fa-forward-step"></i>
+          <i class="f-t fa-solid fa-rotate-left"></i>
+        </div>
+        <div class="aside-content__rage">
+          <div class="aside-content__rage--bar">
+            <div class="skill-meter">
+              <div style="width: 23%" class="skill-level"></div>
+            </div>
+          </div>
+        </div>
+        <div class="aside-content__options">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-laptop"></i>
+          <label for="sound">
+            <i class="fa-solid fa-volume-high"></i>
+          </label>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            step="1"
+            name="sound"
+          />
+        </div>
+      </aside>
+    </div>
     <script src="public/js/main.js"></script>
   </body>
 </html>
