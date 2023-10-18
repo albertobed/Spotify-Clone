@@ -1,0 +1,120 @@
+.main-content {
+  width: 100%;
+  @extend %flex-row;
+  height: 88vh;
+  border-radius: 1rem;
+  gap: 1rem;
+
+  &__menubar {
+    width: 100%;
+    @extend %flex-col;
+    flex: 1;
+    gap: 1.5rem;
+
+    &--menu {
+      &__items {
+        @extend %flex-col;
+        flex: 1;
+        border-radius: 1rem;
+        background-color: $color-dark;
+        &--item {
+          @extend %flex-row;
+          padding: 2rem 2rem 1rem;
+          justify-content: start;
+          align-items: start;
+          flex: 1;
+          gap: 2rem;
+          font-size: 2rem;
+          color: white;
+          opacity: 0.6;
+          cursor: pointer;
+          &:hover {
+            opacity: 1;
+          }
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    &--lists {
+      flex: 1;
+      @extend %flex-col;
+      border-radius: 1rem;
+      background-color: $color-dark;
+      overflow-y: hidden;
+
+      &__header {
+        gap: 1rem;
+        @extend %flex-row;
+        align-items: center;
+        color: white;
+        padding: 1rem;
+        font-size: 3rem;
+        i,
+        div {
+          opacity: 0.6;
+          cursor: pointer;
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        div {
+          span {
+            font-weight: 700;
+          }
+          flex: 1;
+        }
+      }
+
+      .hf {
+        width: inherit;
+        z-index: 2;
+        background-color: $color-dark;
+        position: fixed;
+        opacity: 1 !important;
+      }
+      &__list {
+        overflow-y: auto;
+        &__items {
+          @extend %flex-col;
+          gap: 0.4rem;
+          &--item {
+            padding: 0.3rem;
+            @extend %flex-row;
+            gap: 1rem;
+            align-items: center;
+            border-radius: 1rem;
+            cursor: pointer;
+
+            &:hover {
+              background-color: lighten($color-dark, 10);
+            }
+            .list-img {
+              border-radius: 0.5rem;
+              width: 6rem;
+            }
+
+            .list-text {
+              color: white;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+
+              &__des {
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__contentbar {
+    border-radius: 1rem;
+    flex: 2.6;
+    background-color: white;
+  }
+}

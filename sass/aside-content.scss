@@ -8,7 +8,7 @@
     justify-content: center;
     padding-top: 1rem;
     gap: 2rem;
-    background-color: $color-black;
+    background-color: transparent;
 
     &__buttons {
       @extend %flex-row;
