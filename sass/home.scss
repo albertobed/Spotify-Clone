@@ -1,0 +1,133 @@
+.home-content {
+  @extend %flex-col;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 50%,
+    rgba(209, 0, 255, 1) 100%
+  );
+  &__header {
+    @extend %flex-row;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+    &--arrow {
+      @extend %flex-row;
+      gap: 1rem;
+      flex: 1;
+      .circle-bg {
+        @extend %flex-row;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: $color-black;
+        cursor: pointer;
+        .fl {
+          opacity: 0.3;
+        }
+        i {
+          font-size: 2rem;
+          color: $color-white;
+          margin: auto;
+        }
+      }
+    }
+    &--buttons {
+      @extend %flex-row;
+      align-items: center;
+      gap: 1rem;
+      &--explore {
+        gap: 1rem;
+        @include btn($color-white, $color-black);
+        font-weight: 700;
+        transition: all 0s;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      &--install {
+        @extend %flex-row;
+        align-items: center;
+        @include btn($color-black, $color-white);
+        font-weight: 700;
+        transition: all 0s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      .circle-bg {
+        @extend %flex-row;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: $color-black;
+        cursor: pointer;
+        i {
+          font-size: 2rem;
+          color: #ffffff;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  &__main {
+    flex: 9;
+    overflow-y: auto;
+    &-content {
+      padding: 1.5rem;
+      &--title {
+        font-weight: 800;
+        color: $color-white;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        &:hover a {
+          text-decoration: underline;
+        }
+        a {
+          color: inherit;
+        }
+      }
+      &--lists {
+        &__items {
+          gap: 2rem;
+          @extend %flex-row;
+          justify-content: center;
+          .ml-card {
+            @extend %flex-col;
+            cursor: pointer;
+            gap: 1rem;
+            background-color: $color-dark;
+            padding: 2rem;
+            border-radius: 1rem;
+            &:hover {
+              background-color: lighten($color-dark, 13);
+            }
+            &--img {
+              border-radius: 0.5rem;
+              width: 16rem;
+              height: 16rem;
+              box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+            }
+            &--txt {
+              color: $color-white;
+              max-width: 16rem;
+              h5 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+              }
+              span {
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

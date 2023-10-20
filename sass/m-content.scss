@@ -61,6 +61,12 @@
           }
         }
 
+        i {
+          &:last-child {
+            font-size: 2rem;
+          }
+        }
+
         div {
           span {
             font-weight: 700;
@@ -98,7 +104,7 @@
             }
 
             .list-text {
-              color: white;
+              color: $color-white;
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis;
@@ -115,6 +121,6 @@
   &__contentbar {
     border-radius: 1rem;
     flex: 2.6;
-    background-color: white;
+    background-color: $color-white;
   }
 }
