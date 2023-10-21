@@ -16,9 +16,9 @@
       justify-content: center;
       gap: 2rem;
 
-      i {
+      ion-icon {
         cursor: default;
-        color: $color-gray;
+        color: $color-white;
         opacity: 0.5;
       }
 
@@ -84,7 +84,7 @@
         cursor: pointer;
       }
 
-      i {
+      ion-icon {
         cursor: pointer;
         font-size: 2rem;
         &:hover {

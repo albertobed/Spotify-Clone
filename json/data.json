@@ -1,0 +1,172 @@
+{
+  "sections": [
+    {
+      "title": "Populer Podcast",
+      "id": "populer_section",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "ROSTO",
+          "img": "https://i.scdn.co/image/ab67656300005f1f6110178d3981c376a6d3dd77",
+          "des": "Firüze Özdemir & Özgün Semirci"
+        },
+        {
+          "id": 1,
+          "name": "Bişiiler Anlatanadam",
+          "img": "https://i.scdn.co/image/7df497ed8bade5e6f869da5a4300afb6e66e3446",
+          "des": "İbrahim Türkler"
+        },
+        {
+          "id": 2,
+          "name": "Kurcala Podcast",
+          "img": "https://i.scdn.co/image/ab67656300005f1f51529fc5ab7d562e45f9ee6c",
+          "des": "Castle media | Nevzat Can Ünsal, Kaan Biber"
+        },
+        {
+          "id": 3,
+          "name": "Cahil Köpekler",
+          "img": "https://i.scdn.co/image/ab67656300005f1fe5d448e9e698d1ea61c21e76",
+          "des": "Cahilköpekler.com"
+        },
+        {
+          "id": 4,
+          "name": "Meksika Açmazı",
+          "img": "https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d 150w, https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d 300w, https://i.scdn.co/image/ab6765630000ba8a0bd5ac908a0dddd8c2ad220d 320w, https://i.scdn.co/image/ab6765630000ba8a0bd5ac908a0dddd8c2ad220d 640w",
+          "des": "Mesut Süre, Anlatanadam, Fazlı Polat via Karnaval.com"
+        }
+      ]
+    },
+    {
+      "title": "Made For You",
+      "id": "made_for_hakon",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "Daily Mix 1",
+          "img": "https://dailymix-images.scdn.co/v2/img/32614f7f1ec7fbc8a0ffe97489bdb7d28aec863c/1/en/default",
+          "des": "Cem Karaca, Barış Manço, Yaşlı Amca and more"
+        },
+        {
+          "id": 1,
+          "name": "Daily Mix 2",
+          "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb415b81a995bc571eb28e2ffe/2/en/default",
+          "des": "Tanju Okan, Ayten Alpman, Ayla Algan and more"
+        },
+        {
+          "id": 2,
+          "name": "Daily Mix 3",
+          "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb70fc6010d9b7760df634ff48/3/en/default",
+          "des": "PHNKR, THIRST, L1OR and more"
+        },
+        {
+          "id": 3,
+          "name": "Daily Mix 4",
+          "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb5caaba2758b19a5116c70489/4/en/default",
+          "des": "Ajda Pekkan, Semiramis Pekkan, Muazzez Abacı and more"
+        },
+        {
+          "id": 4,
+          "name": "Daily Mix 5",
+          "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb502767d47d40f3bbfba25a03/5/en/default",
+          "des": "SHADXWBXRN, GRAVECHILL, Pouya and more"
+        }
+      ]
+    },
+    {
+      "title": "Today's biggest hits",
+      "id": "today_big_hits",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "Hot Hits Turkiye",
+          "img": "https://i.scdn.co/image/ab67706f00000002c4af57f32e353e3132658587",
+          "des": "Dinlemekten vazgeçemediklerin ve en yeni hitler. Kapak: Mert Demir"
+        },
+        {
+          "id": 1,
+          "name": "NKVT",
+          "img": "https://i.scdn.co/image/ab67706f0000000295d561440f1b0fb9a671f115",
+          "des": "Türkiye'nin en sıkı çalma listesi. Kapak: Khontkar"
+        },
+        {
+          "id": 2,
+          "name": "Türkçe Pop",
+          "img": "https://i.scdn.co/image/ab67706f00000002363790a5e0848d634eccfb24",
+          "des": "Türkiye'nin en büyük pop listesi. Kapak: İrem Derici"
+        },
+        {
+          "id": 3,
+          "name": "Üçüncü Yeniler",
+          "img": "https://i.scdn.co/image/ab67706f0000000221bbb23dfefbe17eb92947f7",
+          "des": "Türk müziğinde yeni akımlar. Kapak: Paptircem"
+        },
+        {
+          "id": 4,
+          "name": "Türkçe Rock",
+          "img": "https://i.scdn.co/image/ab67706f00000002d8f7b0f2e78ad9e48e2177bc",
+          "des": "Gitar ve davulu konuşturanlar. Kapak: Batu Akdeniz x Egemen Akkol "
+        }
+      ]
+    },
+    {
+      "title": "Throwback",
+      "id": "throwback",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "Türkçe 80'ler",
+          "img": "https://i.scdn.co/image/ab67706f00000002290b94142a484500d9572fc6",
+          "des": "Türkçe popun arabeske, arabeskin Anadolu rocka karıştığı yıllar."
+        },
+        {
+          "id": 1,
+          "name": "Anadolu Rock",
+          "img": "https://i.scdn.co/image/ab67706f00000002d9c35bb892a28bc6dbb2da17",
+          "des": "Efsanelerin yorumlarıyla saykedelik rock. Kapak: Erkin Koray"
+        },
+        {
+          "id": 2,
+          "name": "Türkçe 90'ler",
+          "img": "https://i.scdn.co/image/ab67706f00000002205fbddafb198ab9534b7d62",
+          "des": "Türk pop müziğinin altın çağı: efsane 90'lar"
+        },
+        {
+          "id": 3,
+          "name": "Türkçe 2000'ler",
+          "img": "https://i.scdn.co/image/ab67706f000000026e65f020506feb291e366012",
+          "des": "Türk pop müziğinin altın çağı: efsane 2000'lar"
+        },
+        {
+          "id": 4,
+          "name": "#tbt",
+          "img": "https://i.scdn.co/image/ab67706f0000000297efb68f9ac20e08ed463f66",
+          "des": "Zamansız, nostolji "
+        }
+      ]
+    },
+    {
+      "title": "Uniquely yours",
+      "id": "Uniquely",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "On Repeat",
+          "img": "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_DEFAULT-en.jpg",
+          "des": "Songs you love right now"
+        },
+        {
+          "id": 1,
+          "name": "Your Time Capsule",
+          "img": "https://daily-mix.scdn.co/covers/time-capsule/time-capsule-blue_DEFAULT-en.jpg",
+          "des": "We made you a personalized playlist with songs to take you back in time."
+        },
+        {
+          "id": 2,
+          "name": "Repeat Rewind",
+          "img": "https://daily-mix.scdn.co/covers/backtracks/PZN_Repeat_Rewind2_DEFAULT-en.jpg",
+          "des": "Your past favorites"
+        }
+      ]
+    }
+  ]
+}
