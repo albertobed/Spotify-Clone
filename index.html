@@ -20,198 +20,591 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="content">
       <main class="main-content">
-        <div class="main-content__menubar">
-          <nav class="main-content__menubar--menu">
-            <ul class="main-content__menubar--menu__items">
-              <li class="main-content__menubar--menu__items--item active">
-                <ion-icon name="home"></ion-icon>
-                <span>Home</span>
-              </li>
-              <li class="main-content__menubar--menu__items--item">
-                <ion-icon name="search-outline"></ion-icon>
-                <span>Search</span>
-              </li>
-            </ul>
-          </nav>
-          <div class="main-content__menubar--lists">
-            <div class="main-content__menubar--lists__header">
-              <div>
-                <div>
-                  <ion-icon name="library"></ion-icon>
-                  <span>Your Library</span>
+        <div class="main-content__wrapper">
+          <div class="main-content__wrapper__container">
+            <div class="main-content__wrapper__container__menubar">
+              <nav class="main-content__wrapper__container__menubar--menu">
+                <ul
+                  class="main-content__wrapper__container__menubar--menu__items"
+                >
+                  <li
+                    class="btnhome main-content__wrapper__container__menubar--menu__items--item active"
+                  >
+                    <ion-icon name="home"></ion-icon>
+                    <span>Home</span>
+                  </li>
+                  <li
+                    class="btnsearch main-content__wrapper__container__menubar--menu__items--item"
+                  >
+                    <ion-icon name="search-outline"></ion-icon>
+                    <span>Search</span>
+                  </li>
+                </ul>
+              </nav>
+              <div class="main-content__wrapper__container__menubar--lists">
+                <div
+                  class="main-content__wrapper__container__menubar--lists__header"
+                >
+                  <div>
+                    <div>
+                      <ion-icon name="library"></ion-icon>
+                      <span>Your Library</span>
+                    </div>
+                    <button>
+                      <ion-icon name="add-outline"></ion-icon>
+                    </button>
+                    <button>
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </button>
+                  </div>
+                  <div>
+                    <button>Playlist</button>
+                    <button>Artists</button>
+                    <button>Albums</button>
+                  </div>
                 </div>
-                <button>
-                  <ion-icon name="add-outline"></ion-icon>
-                </button>
-                <button>
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </button>
-              </div>
-              <div>
-                <button>Playlist</button>
-                <button>Artists</button>
-                <button>Albums</button>
+                <nav
+                  class="main-content__wrapper__container__menubar--lists__list"
+                >
+                  <div
+                    class="main-content__wrapper__container__menubar--lists__list__search"
+                  >
+                    <button>
+                      <ion-icon name="search-outline"></ion-icon>
+                    </button>
+
+                    <button>
+                      <span>Recents</span>
+                      <ion-icon name="list-outline"></ion-icon>
+                    </button>
+                  </div>
+                  <ul
+                    class="main-content__wrapper__container__menubar--lists__list__items"
+                  >
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>Beğenilen Şarkılar</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Playlist · 15 Songs </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://i.scdn.co/image/ab67706f000000025ec3147cb3278e356f6ff4c9"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>Türkeçe 70'ler</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Playlist · Spotify </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://i.scdn.co/image/ab67706c0000da84bc0d7dddac407ce260f0f7b5"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>GYM PHONK 2023 😈 AGGRESSIVE</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Playlist · Spotify </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://mosaic.scdn.co/300/ab67616d00001e0226487cf0d65e180fdb4de36dab67616d00001e028c841a3a9ec22546a26e8b8fab67616d00001e02bab49d70c6e2cb54678d8f36ab67616d00001e02e6b0198dcd0e1d125a10164c"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>HAYKOM</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Playlist · ALBERTO </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>Meksika Açmazı</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Podcast · Mesut süre, Anlatan Adam</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>Meksika Açmazı</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Podcast · Mesut süre, Anlatan Adam</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="main-content__wrapper__container__menubar--lists__list__items--item"
+                    >
+                      <div class="list-img">
+                        <img
+                          src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
+                          alt="#"
+                        />
+                      </div>
+                      <div class="list-text">
+                        <div class="list-text__title">
+                          <h4>Meksika Açmazı</h4>
+                        </div>
+                        <div class="list-text__des">
+                          <span> Podcast · Mesut süre, Anlatan Adam</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
-            <nav class="main-content__menubar--lists__list">
-              <div class="main-content__menubar--lists__list__search">
-                <button>
-                  <ion-icon name="search-outline"></ion-icon>
-                </button>
-
-                <button>
-                  <span>Recents</span>
-                  <ion-icon name="list-outline"></ion-icon>
-                </button>
-              </div>
-              <ul class="main-content__menubar--lists__list__items">
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
-                      alt="#"
-                    />
-                  </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>Beğenilen Şarkılar</h4>
+            <div class="main-content__wrapper__container__resizer"></div>
+            <div class="main-content__wrapper__container__contentbar">
+              <main class="home-content">
+                <header class="home-content__header">
+                  <div class="home-content__header--arrow">
+                    <div class="circle-bg">
+                      <ion-icon name="chevron-back-outline"></ion-icon>
                     </div>
-                    <div class="list-text__des">
-                      <span> Playlist · 15 Songs </span>
+                    <div class="circle-bg">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
                     </div>
                   </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://i.scdn.co/image/ab67706f000000025ec3147cb3278e356f6ff4c9"
-                      alt="#"
-                    />
+                  <div class="home-content__header--buttons">
+                    <a href="#" class="home-content__header--buttons--install">
+                      <ion-icon name="arrow-down-circle-outline"></ion-icon>
+                      Install App
+                    </a>
+                    <a class="circle-bg" href="#">
+                      <ion-icon name="notifications-outline"></ion-icon>
+                    </a>
+                    <a class="circle-bg" href="#">
+                      <ion-icon name="person-outline"></ion-icon>
+                    </a>
                   </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>Türkeçe 70'ler</h4>
+                </header>
+                <main class="home-content__main">
+                  <!-- js content -->
+                  <footer class="footer">
+                    <div class="footer__e1">
+                      <div class="footer__e1__company">
+                        <ul class="footer__company__items">
+                          <li class="footer__company__items__item">
+                            <h3>Company</h3>
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >About</a
+                            >
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >Jobs</a
+                            >
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >For the Record</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__communities">
+                        <ul class="footer__communities__items">
+                          <li class="footer__communities__items__item">
+                            <h3>Communities</h3>
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >For Artists</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Developers</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Advertising</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Investors</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Vendors</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__useful-links">
+                        <ul class="footer__useful-links__items">
+                          <li class="footer__useful-links__items__item">
+                            <h3>Useful links</h3>
+                          </li>
+                          <li class="footer__useful-links__items__item">
+                            <a
+                              class="footer__useful-links__items__item--link"
+                              href="#"
+                              >Support</a
+                            >
+                          </li>
+                          <li class="footer__useful-links__items__item">
+                            <a
+                              class="footer__useful-links__items__item--link"
+                              href="#"
+                              >Free Mobile App</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__socials">
+                        <ul class="footer__e1__socials__items">
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                          </li>
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                          </li>
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="list-text__des">
-                      <span> Playlist · Spotify </span>
+                    <hr />
+                    <div class="footer__e2">
+                      <ul class="footer__e2__items">
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Legal
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Privacy Center
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Privacy Policy
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Cookies
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            About Ads
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Accessibility
+                          </a>
+                        </li>
+                        <li class="li footer__e2__items__item">
+                          <a
+                            href="https://github.com/albertobed"
+                            class="footer__e2__items__item--link"
+                          >
+                            Made by ❤ Alberto
+                          </a>
+                        </li>
+                      </ul>
                     </div>
+                  </footer>
+                </main>
+              </main>
+              <main class="hidden search-content">
+                <header class="search-content__header">
+                  <div class="search-content__header--arrow">
+                    <div class="circle-bg">
+                      <ion-icon name="chevron-back-outline"></ion-icon>
+                    </div>
+                    <div class="circle-bg">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </div>
+                    <input class="sinput" type="search" />
                   </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://i.scdn.co/image/ab67706c0000da84bc0d7dddac407ce260f0f7b5"
-                      alt="#"
-                    />
+                  <div class="search-content__header--buttons">
+                    <a
+                      href="#"
+                      class="search-content__header--buttons--install"
+                    >
+                      <ion-icon name="arrow-down-circle-outline"></ion-icon>
+                      Install App
+                    </a>
+                    <a class="circle-bg" href="#">
+                      <ion-icon name="person-outline"></ion-icon>
+                    </a>
                   </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>GYM PHONK 2023 😈 AGGRESSIVE</h4>
+                </header>
+                <main class="search-content__body">
+                  <footer class="footer">
+                    <div class="footer__e1">
+                      <div class="footer__e1__company">
+                        <ul class="footer__company__items">
+                          <li class="footer__company__items__item">
+                            <h3>Company</h3>
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >About</a
+                            >
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >Jobs</a
+                            >
+                          </li>
+                          <li class="footer__company__items__item">
+                            <a
+                              class="footer__company__items__item--link"
+                              href="#"
+                              >For the Record</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__communities">
+                        <ul class="footer__communities__items">
+                          <li class="footer__communities__items__item">
+                            <h3>Communities</h3>
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >For Artists</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Developers</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Advertising</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Investors</a
+                            >
+                          </li>
+                          <li class="footer__communities__items__item">
+                            <a
+                              class="footer__communities__items__item--link"
+                              href="#"
+                              >Vendors</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__useful-links">
+                        <ul class="footer__useful-links__items">
+                          <li class="footer__useful-links__items__item">
+                            <h3>Useful links</h3>
+                          </li>
+                          <li class="footer__useful-links__items__item">
+                            <a
+                              class="footer__useful-links__items__item--link"
+                              href="#"
+                              >Support</a
+                            >
+                          </li>
+                          <li class="footer__useful-links__items__item">
+                            <a
+                              class="footer__useful-links__items__item--link"
+                              href="#"
+                              >Free Mobile App</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="footer__e1__socials">
+                        <ul class="footer__e1__socials__items">
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                          </li>
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                          </li>
+                          <li class="footer__e1__socials__items__item">
+                            <a
+                              class="footer__e1__socials__items__item--link"
+                              href="#"
+                            >
+                              <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="list-text__des">
-                      <span> Playlist · Spotify </span>
+                    <hr />
+                    <div class="footer__e2">
+                      <ul class="footer__e2__items">
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Legal
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Privacy Center
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Privacy Policy
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Cookies
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            About Ads
+                          </a>
+                        </li>
+                        <li class="footer__e2__items__item">
+                          <a href="#" class="footer__e2__items__item--link">
+                            Accessibility
+                          </a>
+                        </li>
+                        <li class="li footer__e2__items__item">
+                          <a
+                            href="https://github.com/albertobed"
+                            class="footer__e2__items__item--link"
+                          >
+                            Made by ❤ Alberto
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                  </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://mosaic.scdn.co/300/ab67616d00001e0226487cf0d65e180fdb4de36dab67616d00001e028c841a3a9ec22546a26e8b8fab67616d00001e02bab49d70c6e2cb54678d8f36ab67616d00001e02e6b0198dcd0e1d125a10164c"
-                      alt="#"
-                    />
-                  </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>HAYKOM</h4>
-                    </div>
-                    <div class="list-text__des">
-                      <span> Playlist · ALBERTO </span>
-                    </div>
-                  </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
-                      alt="#"
-                    />
-                  </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>Meksika Açmazı</h4>
-                    </div>
-                    <div class="list-text__des">
-                      <span> Podcast · Mesut süre, Anlatan Adam</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
-                      alt="#"
-                    />
-                  </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>Meksika Açmazı</h4>
-                    </div>
-                    <div class="list-text__des">
-                      <span> Podcast · Mesut süre, Anlatan Adam</span>
-                    </div>
-                  </div>
-                </li>
-                <li class="main-content__menubar--lists__list__items--item">
-                  <div class="list-img">
-                    <img
-                      src="https://i.scdn.co/image/ab67656300005f1f0bd5ac908a0dddd8c2ad220d"
-                      alt="#"
-                    />
-                  </div>
-                  <div class="list-text">
-                    <div class="list-text__title">
-                      <h4>Meksika Açmazı</h4>
-                    </div>
-                    <div class="list-text__des">
-                      <span> Podcast · Mesut süre, Anlatan Adam</span>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </nav>
+                  </footer>
+                </main>
+              </main>
+            </div>
           </div>
-        </div>
-        <div class="main-content__contentbar">
-          <main class="home-content">
-            <header class="home-content__header">
-              <div class="home-content__header--arrow">
-                <div class="circle-bg">
-                  <ion-icon name="chevron-back-outline"></ion-icon>
-                </div>
-                <div class="circle-bg">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </div>
-              </div>
-              <div class="home-content__header--buttons">
-                <a href="#" class="home-content__header--buttons--install">
-                  <ion-icon name="arrow-down-circle-outline"></ion-icon>
-                  Install App
-                </a>
-                <a class="circle-bg" href="#">
-                  <ion-icon name="notifications-outline"></ion-icon>
-                </a>
-                <a class="circle-bg" href="#">
-                  <ion-icon name="person-outline"></ion-icon>
-                </a>
-              </div>
-            </header>
-            <main class="home-content__main">
-              <!-- js content -->
-            </main>
-          </main>
         </div>
       </main>
       <aside class="aside-content">

@@ -1,0 +1,65 @@
+.footer {
+  margin-top: 7rem;
+  @extend %flex-col;
+  color: $color-white;
+  padding: 1rem;
+  width: 100%;
+
+  hr {
+    opacity: 0.2;
+    margin-bottom: 4rem;
+  }
+  a {
+    color: inherit;
+    opacity: 0.5;
+    transition: all 0s;
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+  &__e1 {
+    padding: 2rem;
+    margin-bottom: 4rem;
+
+    @extend %flex-row;
+    gap: 10rem;
+    &__useful-links {
+      flex: 1;
+    }
+    &__socials {
+      &__items {
+        font-size: 2rem;
+        gap: 2rem;
+        @extend %flex-row;
+        a {
+          @extend %flex-row;
+          padding: 1rem;
+          border-radius: 50%;
+          background-color: $color-l-dark;
+          &:hover {
+            background-color: lighten($color-l-dark, 13);
+          }
+          opacity: 1;
+
+          i {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+  &__e2 {
+    margin-bottom: 4rem;
+    padding: 1rem;
+    &__items {
+      @extend %flex-row;
+      gap: 2rem;
+      .li {
+        @extend %flex-row;
+        justify-content: end;
+        flex: 1;
+      }
+    }
+  }
+}
