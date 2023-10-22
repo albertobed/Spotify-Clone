@@ -15,6 +15,14 @@ $color-white: #ffffff;
   box-sizing: border-box;
   transition: all 0.2s ease-out;
   font-family: "Nunito", sans-serif;
+  &:not(input):not(textarea) {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 }
 html {
   font-size: 62.5%;

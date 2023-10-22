@@ -1,6 +1,30 @@
 {
   "sections": [
     {
+      "title": "Uniquely yours",
+      "id": "Uniquely",
+      "ml_cards": [
+        {
+          "id": 0,
+          "name": "On Repeat",
+          "img": "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_DEFAULT-en.jpg",
+          "des": "Songs you love right now"
+        },
+        {
+          "id": 1,
+          "name": "Your Time Capsule",
+          "img": "https://daily-mix.scdn.co/covers/time-capsule/time-capsule-blue_DEFAULT-en.jpg",
+          "des": "We made you a personalized playlist with songs to take you back in time."
+        },
+        {
+          "id": 2,
+          "name": "Repeat Rewind",
+          "img": "https://daily-mix.scdn.co/covers/backtracks/PZN_Repeat_Rewind2_DEFAULT-en.jpg",
+          "des": "Your past favorites"
+        }
+      ]
+    },
+    {
       "title": "Populer Podcast",
       "id": "populer_section",
       "ml_cards": [
@@ -141,30 +165,6 @@
           "name": "#tbt",
           "img": "https://i.scdn.co/image/ab67706f0000000297efb68f9ac20e08ed463f66",
           "des": "Zamansız, nostolji "
-        }
-      ]
-    },
-    {
-      "title": "Uniquely yours",
-      "id": "Uniquely",
-      "ml_cards": [
-        {
-          "id": 0,
-          "name": "On Repeat",
-          "img": "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_DEFAULT-en.jpg",
-          "des": "Songs you love right now"
-        },
-        {
-          "id": 1,
-          "name": "Your Time Capsule",
-          "img": "https://daily-mix.scdn.co/covers/time-capsule/time-capsule-blue_DEFAULT-en.jpg",
-          "des": "We made you a personalized playlist with songs to take you back in time."
-        },
-        {
-          "id": 2,
-          "name": "Repeat Rewind",
-          "img": "https://daily-mix.scdn.co/covers/backtracks/PZN_Repeat_Rewind2_DEFAULT-en.jpg",
-          "des": "Your past favorites"
         }
       ]
     }

@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "title": "Podcast",
+      "img": "https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa"
+    },
+    {
+      "title": "Live Events",
+      "img": "https://concerts.spotifycdn.com/images/live-events_category-image.jpg"
+    },
+    {
+      "title": "Made For You",
+      "img": "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe"
+    },
+    {
+      "title": "New Releases",
+      "img": "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112"
+    },
+    {
+      "title": "Pop",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768"
+    },
+    {
+      "title": "Hip-Hop",
+      "img": "https://i.scdn.co/image/ab67fb8200005caf9e3dea60be755ccd97b7351f"
+    },
+    {
+      "title": "Mood",
+      "img": "https://concerts.spotifycdn.com/images/live-events_category-image.jpg"
+    },
+    {
+      "title": "Trending",
+      "img": "https://i.scdn.co/image/ab67fb8200005caf1867113f5218598847550acd"
+    },
+    {
+      "title": "Charts",
+      "img": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+    },
+    {
+      "title": "Dance/Electronic",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafdfdaac1cf9574a196ca25196"
+    },
+    {
+      "title": "Rock",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafae7e69beb88f16969641b53e"
+    },
+    {
+      "title": "Alberto",
+      "img": "https://avatars.githubusercontent.com/u/136608720?v=4"
+    },
+    {
+      "title": "Indie",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafa1a252e3a815b65778d8c2aa"
+    },
+    {
+      "title": "Workout",
+      "img": "https://i.scdn.co/image/ab67706f000000029249b35f23fb596b6f006a15"
+    },
+    {
+      "title": "Discover",
+      "img": "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg"
+    },
+    {
+      "title": "Country",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafc0d2222b4c6441930e1a386e"
+    },
+    {
+      "title": "Podcast",
+      "img": "https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa"
+    },
+    {
+      "title": "R&B",
+      "img": "https://i.scdn.co/image/ab67fb8200005caff4e38be86ca48a3b10884ae3"
+    },
+    {
+      "title": "K-pop",
+      "img": "https://i.scdn.co/image/ab67fb8200005caf013ee3c983e6f60bf28bad5a"
+    },
+    {
+      "title": "Chill",
+      "img": "https://i.scdn.co/image/ab67fb8200005caf47e942f5bea637f4f4760170"
+    },
+    {
+      "title": "Sleep",
+      "img": "https://i.scdn.co/image/ab67706f00000002b70e0223f544b1faa2e95ed0"
+    },
+    {
+      "title": "Party",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafcbf80f8ea695536eace4fd2c"
+    },
+    {
+      "title": "At Home",
+      "img": "https://i.scdn.co/image/ab67fb8200005cafe914a07d20cec7a65e2e5dad"
+    },
+    {
+      "title": "Gaming",
+      "img": "https://i.scdn.co/image/ab67fb8200005caf26dd3719e8824756914ae61f"
+    }
+  ]
+}
